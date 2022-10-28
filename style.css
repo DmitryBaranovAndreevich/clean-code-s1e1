@@ -1,5 +1,5 @@
 /* Basic Style */
-#incompleteTasks,
+#incomplete-tasks,
 #completed-tasks {
     margin:0;
     padding: 0px;
@@ -51,7 +51,7 @@
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.task__row-wrapper {
     display: flex;
 }
 
@@ -112,9 +112,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.list > * {
-    vertical-align: middle;
 }
 
 .checkbox {
