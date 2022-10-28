@@ -15,7 +15,8 @@
     outline: none;
 }
 
-.list .text {
+.list
+.text {
     display: none;
 }
 
@@ -152,17 +153,20 @@
 }
 
 /* Edit Task */
-.editMode .text {
+.editMode
+.text {
     display:inline-block;
     width:224px;
 }
 
-.editMode .label {
+.editMode
+.label {
     display:none;
 }
 
 /* Completed */
-#completed-tasks .label {
+#completed-tasks
+.label {
     text-decoration: line-through;
     color: #888;
 }
