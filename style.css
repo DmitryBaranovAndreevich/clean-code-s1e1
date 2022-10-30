@@ -16,7 +16,7 @@
 }
 
 .list
-.text {
+.input__text {
     display: none;
 }
 
@@ -47,7 +47,7 @@
     }
 }
 
-.centered-main-page-element {
+.main-page {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -89,7 +89,7 @@
     text-transform: uppercase;
 }
 
-.text {
+.input__text {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -102,7 +102,7 @@
     color: #888;
 }
 
-.text:focus {
+.input__text:focus {
     color: #333;
 }
 
@@ -127,7 +127,7 @@
     align-items: center;
 }
 
-.checkbox {
+.input__checkbox {
     margin: 0 10px;
 }
 
@@ -138,7 +138,7 @@
     width: 226px;
 }
 
-.text {
+.input__text {
     width: 226px;
 }
 
@@ -154,7 +154,7 @@
 
 /* Edit Task */
 .editMode
-.text {
+.input__text {
     display:inline-block;
     width:224px;
 }
